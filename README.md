@@ -1,9 +1,5 @@
 이 프로젝트는 단어 맞추기 게임인 행맨(Hangman)입니다. 난이도를 선택하고, 목숨이 다하기 전에 단어를 맞춰보세요!
 
----
-
-📦 설치 방법
-
 1. 저장소 클론
 ```bash
 git clone https://github.com/yogitzer/Python-Team-Project.git
