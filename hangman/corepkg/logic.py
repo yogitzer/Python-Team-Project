@@ -3,7 +3,7 @@ def check_letter_in_word(letter, word):
 
 def check_game_over(word, guessed_letters, remaining_attempts):
     if remaining_attempts == 0:
-        return True, False  # 게임 종료, 실패
+        return True, False 
     if all(ch in guessed_letters for ch in word):
-        return True, True  # 게임 종료, 성공
-    return False, False  # 계속 진행
+        return True, True 
+    return False, False 

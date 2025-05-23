@@ -1,10 +1,10 @@
 import random
-from hangman.corepkg.repository import word_list_easy, word_list_normal, word_list_hard
+from hangman.corepkg.repository import word_list_animals, word_list_foods, word_list_sports
 
-def choose_random_word(difficulty):
-    if difficulty == "easy":
-        return random.choice(word_list_easy)
-    elif difficulty == "normal":
-        return random.choice(word_list_normal)
-    elif difficulty == "hard":
-        return random.choice(word_list_hard)
+def choose_random_word(category):
+    if category == "1":
+        return random.choice(word_list_animals)
+    elif category == "2":
+        return random.choice(word_list_foods)
+    elif category == "3":
+        return random.choice(word_list_sports)
